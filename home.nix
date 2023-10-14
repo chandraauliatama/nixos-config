@@ -92,9 +92,13 @@
     usbutils # lsusb
   ];
 
-  programs.bash = {
+  programs.kitty = {
     enable = true;
     enableCompletion = true;
+  };
+
+  programs.bash = {
+    enable = true;
     # TODO add your cusotm bashrc here
     # bashrcExtra = ''
     #   export PATH="$PATH:$HOME/bin:$HOME/.local/bin:$HOME/go/bin"

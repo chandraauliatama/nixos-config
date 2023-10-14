@@ -1,8 +1,6 @@
 {
   description = "A very basic flake";
 
-  nix.settings.trusted-users = [ "chandraat" ]; 
-
   nixConfig = {
     experimental-features = [ "nix-command" "flakes" ];
     substituters = [
