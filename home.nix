@@ -94,7 +94,6 @@
 
   programs.kitty = {
     enable = true;
-    enableCompletion = true;
   };
 
   programs.bash = {
